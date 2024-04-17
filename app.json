@@ -3,7 +3,7 @@
   "description": "Whatsapp bot.",
   "keywords": ["whatsapp bot"],
   "logo": "https://i.ibb.co/x8YnsJ7/68747470733a2f2f692e696d6775722e636f6d2f41776c4c396b632e6a706567.jpg",
-  "repository": "https://github.com/Obito770/ASTA-BOT",
+  "repository": "https://github.com/Obito770/GataBotLite-MD",
   "stack": "container",
   "env": {
      "DK3MK": {
