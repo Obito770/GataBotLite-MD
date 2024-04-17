@@ -1,0 +1,29 @@
+{
+  "name": "Gata_bot",
+  "description": "Whatsapp bot.",
+  "keywords": ["whatsapp bot"],
+  "logo": "https://i.ibb.co/x8YnsJ7/68747470733a2f2f692e696d6775722e636f6d2f41776c4c396b632e6a706567.jpg",
+  "repository": "https://github.com/Obito770/ASTA-BOT",
+  "stack": "container",
+  "env": {
+     "DK3MK": {
+      "description": "𝐼 𝐿𝛩𝑉𝐸 𝑌𝛩𝑈 𝛩𝐵𝐼𝑇𝛩",
+      "required": false,
+      "value": "جاتا"
+    }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+} 
